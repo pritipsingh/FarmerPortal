@@ -1,4 +1,4 @@
-Contract for buying selling: 0xae9daad5fe6060d2393500e8A5BD2f62afc3d9F8
+Contract for buying selling: 0xae9daad5fe6060d2393500e8A5BD2f62afc3d9F8 <br>
 contract for insurance: 0xea289FA726D0b79c97A14e07cf4370183D9F59b4
 
 Welcome to Farmer's Portal!

@@ -1,11 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-
-import React, {useState, useEffect} from 'react'
+import { CropContext, useStateContext } from '../context';
+import React, {useState, useEffect, useContext} from 'react'
 import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.css';
 import logo from '../assets/img/logo.svg'
 import {GiPlantsAndAnimals} from 'react-icons/gi'
 const NavBar = () => {
+  const {connectWallet, account} = useStateContext();
   const [activelink, setActivelink] = useState('home')
   const [scrolled, setScrolled] = useState(false)
 
@@ -44,7 +45,12 @@ const onUpdateActiveLink = (value) => {
           </Nav>
           <span className="navbar-text">
             
-            <button className='vvd' onClick={() => console.log('clicked')}><span>Let's connect</span></button>
+            <button className='vvd' onClick={() => connectWallet()}><span>
+              
+              {account ? 
+              'Connected'
+              : 'Connect Wallet'}
+              </span></button>
           </span>
         </Navbar.Collapse>
       </Container>

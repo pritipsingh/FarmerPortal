@@ -1,5 +1,7 @@
 Contract for buying selling: 0xae9daad5fe6060d2393500e8A5BD2f62afc3d9F8 <br>
-contract for insurance: 0xea289FA726D0b79c97A14e07cf4370183D9F59b4
+Contract for insurance: 0xea289FA726D0b79c97A14e07cf4370183D9F59b4
+
+Smart contract: https://github.com/pritipsingh/farmer-portal--smart-contract
 
 Welcome to Farmer's Portal!
 
@@ -16,3 +18,5 @@ Why is it better than the existing system?
 1. Complaints will forever exist
 2.Proof of fair price(MSP)
 
+
+https://youtu.be/otJ_enlfBRk
